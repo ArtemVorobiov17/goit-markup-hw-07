@@ -1,0 +1,75 @@
+.subscription {
+    margin-left: 93px;
+    display: inline-flex;
+    align-items: flex-end;
+
+    
+}
+
+.subscription__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription__label {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.subscription__input {
+    width: 358px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    color: #fff;
+    padding: 0 16px 0 16px;
+}
+
+.subscription__input::placeholder {
+    display: flex;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription__button {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    padding-left: 28px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--brend-color1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    fill: #fff;
+    color: #FFFFFF;
+}
+
+.subscription__icon {
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+}

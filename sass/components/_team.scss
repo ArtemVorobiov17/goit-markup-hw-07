@@ -1,0 +1,21 @@
+.team {
+    background-color: #F5F4FA;
+    @extend %section;
+
+    &__container {
+        @extend %container;
+    }
+
+    &__title {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--basic-text-color);
+    
+        margin-bottom: 50px;
+    }
+}
